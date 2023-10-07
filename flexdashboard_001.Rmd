@@ -40,13 +40,6 @@ ggplot(mtcars,aes(cyl)) + geom_bar(fill=colores) + labs(x="Cillindros",y="Frecue
 
 ```
 
-Column {data-width=333}
------------------------------------------------------------------------
 
-### lattice
-
-```{r}
-barchart(x,xlab="Cilindros",ylab="Frecuencias",main="Número de Cilindros",col=colores,horizontal=FALSE)
-```
 
 
